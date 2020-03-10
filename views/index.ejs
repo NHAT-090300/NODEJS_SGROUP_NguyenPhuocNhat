@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<%- include('partials/head.ejs'); %>
+</head>
+<body class="hold-transition sidebar-mini layout-fixed">
+<div class="wrapper">
+
+  <!-- Navbar -->
+  <%- include('partials/navbar.ejs'); %>
+
+  <!-- Main Sidebar Container -->
+  <%- include('partials/siderbar.ejs'); %>
+
+  <!-- Content Wrapper. Contains page content -->
+  <%- body %>
+
+  <%- include('partials/footer.ejs'); %>
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+</div>
+
+<%- include('partials/script.ejs'); %>
+</body>
+</html>
